@@ -1,7 +1,24 @@
 body {background-color: #CCCCCC;
     color: #333333;
+    font-family: Verdana, Arial, sans-serif;
 }
-body h2 {color:#FF0000}
+body h2 {color:#FF0000;
+    text-transform: uppercase
+}
 body h1 {color:#000000}
-#Lighter {color:#666666}
-.Indy {color:#FFFF00}
+#Lighter {color:#666666;
+    background-image: url(images/gradient.jpg);
+    background-position: left;
+    background-repeat: repeat-x;
+}
+.Indy {color:#FF6633}
+h1, h2 {font-family: Georgia, "Times New Roman", serif; }
+footer {font-style: italic;
+    font-size: .50em;
+    text-align: center;
+}
+ul {list-style-type: square}
+a {text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
